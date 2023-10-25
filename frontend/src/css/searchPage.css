@@ -1,0 +1,76 @@
+.resBlock {
+    margin: 2em;
+    display: block;
+    width: 290px;
+    height: auto;
+    /* background-color: antiquewhite; */
+    border-radius: 10px;
+    background: #eeeeee52;
+}
+
+.resBlock:hover {
+    cursor: pointer;
+}
+
+.resImgContainer {
+    width: auto;
+    height: 130px;
+    display: flex;
+    text-align: center;
+}
+
+.resImg {
+    width: 130px;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.resInfo {
+    padding: 0.5em;
+    text-align: left;
+    width: 270px;
+    height: auto;
+    color: black;
+}
+
+.resInfo .title {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    padding: 2px;
+    align-items: baseline;
+}
+
+.resInfo .title .name {
+    width: 100%;
+    font-size: 25px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.resInfo .title .comments {
+    display: flex;
+    justify-content: space-around;
+    margin: 2px;
+}
+
+.resInfo .title .comments Button {
+    margin: 4px;
+}
+
+.resInfo .title .rating {
+    display: flex;
+    width: 90%;
+    align-items: center;
+    padding: 5px;
+    border: 3px dashed rgba(0, 0, 0, 0.061);
+    margin: 10px;
+    justify-content: center;
+}
+
+.starImg {
+    width: 20px
+}
