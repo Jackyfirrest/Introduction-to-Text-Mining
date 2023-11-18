@@ -26,12 +26,3 @@ yarn start
    ` python3 app.py`
 6. test（get hello world）
    `curl http://127.0.0.1:8000/helloWorld`
-
-### other back-end reminding
-
-- save packages in requirements.txt \
-   `pip3 freeze > requirements.txt `
-- activate virtual env \
-   `source Traviewl-backend/bin/activate`
-- deactivate \
-   `deactivate`
