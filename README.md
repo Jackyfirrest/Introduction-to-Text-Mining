@@ -1,6 +1,6 @@
 # rePlay
 ## Intro
-This website analysis google play reviews. User can quickly look into the review highlight of several apps. 
+This website analysis google play reviews. User can quickly look into the review highlight of several apps. The main functionalities will be based on three aspects: firstly, predicting the app that users desire based on the comments they input; secondly, identifying the most common positive and negative keywords in each category, as well as the pros and cons of apps; and finally, extracting essential aspects of each app for users as functional references. 
 
 ## frontend
 
@@ -12,22 +12,22 @@ yarn start
 
 ## backend
 
-1. 先載 pyenv(https://www.maxlist.xyz/2020/04/01/python-pyenv-virtualenv/ )，在pyenv中下載 python3.9.2 的版本 \
-2. 建置 python3.9 的環境 \
+1. Download pyenv(https://www.maxlist.xyz/2020/04/01/python-pyenv-virtualenv/ )，download version of python3.9.2 in pyenv \
+2. build python3.9 environment \
    ```
    cd backend
    python3 -m virtualenv -p ~/.pyenv/versions/3.9.2/bin/python rePlay-env
    ```
-3. 進入虛擬環境 \
+3. virtual environment \
    `source rePlay-env/bin/acitvate`
-4. 下載所需套件
+4. download requirement documents
    ` pip3 install -r requirements.txt`
-5. 打開後端
+5. open back-end
    ` python3 app.py`
-6. 測試（得到 hello world 即可）
+6. test（get hello world）
    `curl http://127.0.0.1:8000/helloWorld`
 
-### 其他後端溫馨小貼士
+### other back-end reminding
 
 - save packages in requirements.txt \
    `pip3 freeze > requirements.txt `
@@ -35,5 +35,3 @@ yarn start
    `source Traviewl-backend/bin/activate`
 - deactivate \
    `deactivate`
-- vs code 開後端盡量直接開 backend 的 folder，文字編輯區塊會比較好看到編譯的提示
-- vs code terminal 不想一直打 activate 可以參考這篇 (https://pythonviz.com/vscode/visual-studio-code-virtual-environment-setup/)
